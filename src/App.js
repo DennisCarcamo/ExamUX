@@ -5,7 +5,8 @@ import NavbarContainer from "./containers/NavbarContainer";
 import HeaderContainer from "./containers/HeaderContainer";
 import ToolbarContainer from "./containers/ToolbarContainer";
 import FisrtLookContainer from "./containers/FirstLookContainer";
-import CardsContainer from "./containers/CardsContainer"
+import CardsContainer from "./containers/CardsContainer";
+import Carousell from "./components/Carousel";
 import "./App.css";
 
 class App extends Component {
@@ -16,9 +17,10 @@ class App extends Component {
           <NavbarContainer />
           <HeaderContainer />
           <ToolbarContainer />
-          <FisrtLookContainer />
+          <Carousell/>
+
           <CardsContainer/>
-       
+          
         {/* <HeaderContainer/>*/}
       </div>
     );

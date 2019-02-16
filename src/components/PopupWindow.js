@@ -19,7 +19,7 @@ const CustomModal = () => (
         <a className="close" onClick={close}>
           &times;
         </a>
-        <div className="header"> Nest Learning Thermostat #rd Gen </div>
+        <div className="header"> Nest Learning Thermostat 3rd Gen </div>
         <div className="content">
           {" "}
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, a

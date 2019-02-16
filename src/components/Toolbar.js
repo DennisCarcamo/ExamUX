@@ -11,10 +11,10 @@ class Toolbar extends Component {
     const { activeItem } = this.state;
     return (
       <div class="ui teal three item inverted menu">
-        <a class="active item">PRODUCTS</a>
         <a class="item">NESNT AT HOME</a>
         <a class="item">FOR BUSINESS</a>
         <a class="item">OFFERS</a>
+        <a class="item">PRODUCTS</a>
       </div>
 
       /* <Menu>

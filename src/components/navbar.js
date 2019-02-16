@@ -10,35 +10,21 @@ class Navbar extends Component {
   render() {
     const { activeItem } = this.state;
     return (
-      <Menu>
-        <Menu.Item
-          name="name"
-          active={activeItem == "name"}
-          onClick={this.mark}
-        >
-          Name
-        </Menu.Item>
+      <div class="ui secondary  menu">
+        <a class="active item">Home</a>
+        <a class="item">Messages</a>
+        <a class="item">Friends</a>
+        <div class="right menu">
+          <a class="item">
+            <i class="user icon" />Log in
+          </a>
 
-        <Menu.Menu position="right">
-          <Menu.Item
-            name="login"
-            active={activeItem == "login"}
-            onClick={this.mark}
-          >
-            Login
-          </Menu.Item>
-
-          <Menu.Item
-            name="support"
-            active={activeItem == "Support"}
-            onClick={this.mark}
-          >
-            Support
-          </Menu.Item>
-
-
-        </Menu.Menu>
-      </Menu>
+          <a class="item">
+            <i class="cart icon" />Cart
+          </a>
+          
+        </div>
+      </div>
     );
   }
 }

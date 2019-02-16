@@ -5,7 +5,7 @@ import Headder from "../components/Header";
 class HeaderContainer extends Component {
   render() {
     return(
-    <Headder />
+    <Headder/>
     );
   }
 }

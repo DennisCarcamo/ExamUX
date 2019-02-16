@@ -7,6 +7,7 @@ import ToolbarContainer from "./containers/ToolbarContainer";
 import CardsContainer from "./containers/CardsContainer";
 import Carousell from "./components/Carousel";
 import FootherContainer from "./containers/FootherContainer";
+import LoginContainer from "./containers/LoginContainer";
 import Popupwindow from "./components/PopupWindow";
 import "./App.css";
 
@@ -15,11 +16,14 @@ class App extends Component {
     return (
       <div className="App">
         <NavbarContainer />
+        <LoginContainer/>
+
         <HeaderContainer />
         <ToolbarContainer />
         <Carousell />
         <CardsContainer />
         <FootherContainer/>
+        
       </div>
     );
   }

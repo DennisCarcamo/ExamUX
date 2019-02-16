@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "semantic-ui-css/semantic.min.css";
 
+
 class Cards extends Component {
   render() {
     return (
@@ -50,11 +51,11 @@ class Cards extends Component {
          {/*--------------------------------------Nest Secure Card -----------------------------*/}
          <a class="teal card">
           <div class="image">
-            <img src={require("../img/Secure.png")} />
+            <img src={require("../img/IQ.png")} />
           </div>
           <div class="content">
-            <div class="header">Nest Secure System</div>
-            <div class="description">$110 USD</div>
+            <div class="header">Nest Cam Outdoor IQ</div>
+            <div class="description">$220 USD</div>
           </div>
           <div class="extra content">
             <span class="center floated">
@@ -74,7 +75,7 @@ class Cards extends Component {
           </div>
           <div class="content">
             <div class="header">Yale Lock</div>
-            <div class="description">$110 USD</div>
+            <div class="description">$200 USD</div>
           </div>
           <div class="extra content">
             <span class="center floated">

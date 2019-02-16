@@ -7,6 +7,7 @@ import ToolbarContainer from "./containers/ToolbarContainer";
 import FisrtLookContainer from "./containers/FirstLookContainer";
 import CardsContainer from "./containers/CardsContainer";
 import Carousell from "./components/Carousel";
+import Popupwindow from "./components/PopupWindow";
 import "./App.css";
 
 class App extends Component {
@@ -18,7 +19,7 @@ class App extends Component {
           <HeaderContainer />
           <ToolbarContainer />
           <Carousell/>
-
+          <Popupwindow/>
           <CardsContainer/>
           
         {/* <HeaderContainer/>*/}

@@ -3,37 +3,37 @@ import React, { Component } from "react";
 class Login extends Component {
   render() {
     return (
-        <div class="ui three column centered grid">
-      <div class="ui placeholder segment">
-        <div class="ui two column very relaxed stackable grid">
-          <div class="column">
-            <div class="ui form">
-              <div class="field">
-                <label>Username</label>
-                <div class="ui left icon input">
-                  <input type="text" placeholder="Username" />
-                  <i class="user icon" />
+      <div className="ui three column centered grid">
+        <div className="ui placeholder segment">
+          <div className="ui two column very relaxed stackable grid">
+            <div className="column">
+              <div className="ui form">
+                <div className="field">
+                  <label>Username</label>
+                  <div className="ui left icon input">
+                    <input type="text" placeholder="Username" />
+                    <i className="user icon" />
+                  </div>
                 </div>
-              </div>
-              <div class="field">
-                <label>Password</label>
-                <div class="ui left icon input">
-                  <input type="password" />
-                  <i class="lock icon" />
+                <div className="field">
+                  <label>Password</label>
+                  <div className="ui left icon input">
+                    <input type="password" />
+                    <i className="lock icon" />
+                  </div>
                 </div>
+                <div className="ui teal submit button">Login</div>
               </div>
-              <div class="ui blue submit button">Login</div>
+            </div>
+            <div className="middle aligned column">
+              <div className="ui big button">
+                <i className="signup icon" />
+                Sign Up
+              </div>
             </div>
           </div>
-          <div class="middle aligned column">
-            <div class="ui big button">
-              <i class="signup icon" />
-              Sign Up
-            </div>
-          </div>
+          <div className="ui vertical divider">Or</div>
         </div>
-        <div class="ui vertical divider">Or</div>
-      </div>
       </div>
     );
   }

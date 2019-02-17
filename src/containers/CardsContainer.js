@@ -5,7 +5,7 @@ import Cards from "../components/Cards"
 class CardsContainer extends Component {
     render() {
       return (
-          <div class="iu two cards">
+          <div className="iu two cards">
           <Cards/>
           </div>
         );

@@ -5,85 +5,85 @@ import "semantic-ui-css/semantic.min.css";
 class Cards extends Component {
   render() {
     return (
-      <div class="ui two cards">
+      <div className="ui two cards">
         {/*--------------------------------------thermostat Card -----------------------------*/}
-        <a class="teal card">
-          <div class="image">
+        <a className="teal card">
+          <div className="image">
             <img src={require("../img/thermo.png")} />
           </div>
-          <div class="content">
-            <div class="header">Nest Learning Thermostat</div>
-            <div class="description">$350 USD</div>
+          <div className="content">
+            <div className="header">Nest Learning Thermostat</div>
+            <div className="description">$350 USD</div>
           </div>
-          <div class="extra content">
-            <span class="center floated">
-              <div class="ui vertical animated button" tabindex="0">
-                <div class="hidden content">
-                  <i class="cart plus icon" />
+          <div className="extra content">
+            <span className="center floated">
+              <button className="ui vertical animated button" tabindex="0">
+                <div className="hidden content">
+                  <i className="cart plus icon" />
                 </div>
-                <div class="visible content">Get it</div>
-              </div>
+                <div className="visible content">Get it</div>
+              </button>
             </span>
           </div>
         </a>
 
         {/*--------------------------------------Smoke Alarm Card -----------------------------*/}
-        <a class="teal card">
-          <div class="image">
+        <a className="teal card">
+          <div className="image">
             <img src={require("../img/smoke.png")} />
           </div>
-          <div class="content">
-            <div class="header">Nest Smoke and CO Alarm</div>
-            <div class="description">$110 USD</div>
+          <div className="content">
+            <div className="header">Nest Smoke and CO Alarm</div>
+            <div className="description">$110 USD</div>
           </div>
-          <div class="extra content">
-            <span class="center floated">
-              <div class="ui vertical animated button" tabindex="0">
-                <div class="hidden content">
-                  <i class="cart plus icon" />
+          <div className="extra content">
+            <span className="center floated">
+              <div className="ui vertical animated button" tabindex="0">
+                <div className="hidden content">
+                  <i className="cart plus icon" />
                 </div>
-                <div class="visible content">Get it</div>
+                <div className="visible content">Get it</div>
               </div>
             </span>
           </div>
         </a>
 
          {/*--------------------------------------Nest Secure Card -----------------------------*/}
-         <a class="teal card">
-          <div class="image">
+         <a className="teal card">
+          <div className="image">
             <img src={require("../img/IQ.png")} />
           </div>
-          <div class="content">
-            <div class="header">Nest Cam Outdoor IQ</div>
-            <div class="description">$220 USD</div>
+          <div className="content">
+            <div className="header">Nest Cam Outdoor IQ</div>
+            <div className="description">$220 USD</div>
           </div>
-          <div class="extra content">
-            <span class="center floated">
-              <div class="ui vertical animated button" tabindex="0">
-                <div class="hidden content">
-                  <i class="cart plus icon" />
+          <div className="extra content">
+            <span className="center floated">
+              <div className="ui vertical animated button" tabindex="0">
+                <div className="hidden content">
+                  <i className="cart plus icon" />
                 </div>
-                <div class="visible content">Get it</div>
+                <div className="visible content">Get it</div>
               </div>
             </span>
           </div>
         </a>
         {/*--------------------------------------Nest Yale Card -----------------------------*/}
-         <a class="teal card">
-          <div class="image">
+         <a className="teal card">
+          <div className="image">
             <img src={require("../img/yalelock.png")} />
           </div>
-          <div class="content">
-            <div class="header">Yale Lock</div>
-            <div class="description">$200 USD</div>
+          <div className="content">
+            <div className="header">Yale Lock</div>
+            <div className="description">$200 USD</div>
           </div>
-          <div class="extra content">
-            <span class="center floated">
-              <div class="ui vertical animated button" tabindex="0">
-                <div class="hidden content">
-                  <i class="cart plus icon" />
+          <div className="extra content">
+            <span className="center floated">
+              <div className="ui vertical animated button" tabindex="0">
+                <div className="hidden content">
+                  <i className="cart plus icon" />
                 </div>
-                <div class="visible content">Get it</div>
+                <div className="visible content">Get it</div>
               </div>
             </span>
           </div>

@@ -1,0 +1,25 @@
+import React, { Component } from "react";
+import "semantic-ui-css/semantic.min.css";
+import NavbarContainer from "../containers/NavbarContainer";
+import HeaderContainer from "../containers/HeaderContainer";
+import ToolbarContainer from "../containers/ToolbarContainer";
+import CardsContainer from "../containers/CardsContainer";
+import Carousell from "./Carousel";
+import FootherContainer from "../containers/FootherContainer";
+
+class HomePage extends Component {
+  render() {
+    return (
+      <div className="App">
+        <NavbarContainer />
+        <HeaderContainer />
+        <ToolbarContainer />
+        <Carousell />
+        <CardsContainer />
+        <FootherContainer />
+      </div>
+    );
+  }
+}
+
+export default HomePage;

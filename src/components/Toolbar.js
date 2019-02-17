@@ -10,48 +10,12 @@ class Toolbar extends Component {
   render() {
     const { activeItem } = this.state;
     return (
-      <div class="ui teal three item inverted menu">
-        <a class="item">NESNT AT HOME</a>
-        <a class="item">FOR BUSINESS</a>
-        <a class="item">OFFERS</a>
-        <a class="item">PRODUCTS</a>
+      <div className="ui teal three item inverted menu">
+        <a className="item">NESNT AT HOME</a>
+        <a className="item">FOR BUSINESS</a>
+        <a className="item">OFFERS</a>
+        <a className="item">PRODUCTS</a>
       </div>
-
-      /* <Menu>
-        <Menu.Menu position="center">
-          <Menu.Item
-            name="PRODUCST"
-            active={activeItem == "PRODUCST"}
-            onClick={this.mark}
-          >
-            PRODUCST
-          </Menu.Item>
-
-          <Menu.Item
-            name="NEST AT HOME"
-            active={activeItem == "NEST AT HOME"}
-            onClick={this.mark}
-          >
-            NEST AT HOME
-          </Menu.Item>
-
-          <Menu.Item
-            name="FOR BUSINESS"
-            active={activeItem == "FOR BUSINESS"}
-            onClick={this.mark}
-          >
-            FOR BUSINESS
-          </Menu.Item>
-
-          <Menu.Item
-            name="OFFERS"
-            active={activeItem == "OFFERS"}
-            onClick={this.mark}
-          >
-            OFFERS
-          </Menu.Item>
-        </Menu.Menu>
-     </Menu>*/
     );
   }
 }

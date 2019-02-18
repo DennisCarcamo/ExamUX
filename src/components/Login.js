@@ -46,7 +46,7 @@ class Login extends Component {
                 </div>
               </div>
             </div>
-            <div className="ui vertical divider">Or</div>
+            {/*<div className="ui vertical divider">Or</div>*/}
           </div>
         </div>
       </div>

@@ -1,17 +1,21 @@
 import React, { Component } from "react";
-import { Menu } from "semantic-ui-react";
+import {Link} from "react-router-dom";
+import Button from 'react';
 import "semantic-ui-css/semantic.min.css";
+import Login from "../containers/LoginContainer";
 
 class Navbar extends Component {
+ 
   render() {
     return (
       <div className="ui secondary  menu">
         <div className="right menu">
-          <a className="item" >
+
+          <Button component={Link} className="item" to={Login}>
             <i className="wrench icon" />
             Support
-          </a>
-          <a className="item">
+          </Button>
+          <a className="item" >
             <i className="user icon" />
             Log in
           </a>

@@ -11,7 +11,6 @@ class HomePage extends Component {
   render() {
     return (
       <div className="App">
-        <NavbarContainer />
         <HeaderContainer />
         <ToolbarContainer />
         <Carousell />

@@ -5,7 +5,9 @@ import Login from "../components/Login";
 class LoginContainer extends Component {
   render() {
     return(
-    <Login/>
+      <div>
+        <Login/>
+      </div>
     );
   }
 }

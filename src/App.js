@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Navigation from "./components/navBar";
+import Navigation from "./components/navbar";
 import HomePage from "./containers/HomePageContainer";
 import Login from "./containers/LoginContainer";
 import Cart from "./components/Cart";

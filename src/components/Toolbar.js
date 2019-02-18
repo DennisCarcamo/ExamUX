@@ -3,16 +3,11 @@ import { Menu } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 
 class Toolbar extends Component {
-  state = {};
-  handleItemClick = (e, { name }) => {
-    this.setState({ activeItem: name });
-  };
   render() {
-    const { activeItem } = this.state;
     return (
       <div class="ui teal three item inverted menu">
         <a class="item">NESNT AT HOME</a>
-        <a class="item">FOR BUSINESS</a>
+        <a class="item" >FOR BUSINESS</a>
         <a class="item">OFFERS</a>
         <a class="item">PRODUCTS</a>
       </div>

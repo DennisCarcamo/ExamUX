@@ -1,9 +1,12 @@
 import React, { Component } from "react";
 import { Button } from "semantic-ui-react";
-import Navbar from "./components/navbar"
-import HomePage from "./containers/HomePageContainer";
+import Navbar from "./components/navbar";
+import First from "./components/FirstLook";
+
+
 import "./App.css";
 import "semantic-ui-css/semantic.min.css";
+import FisrtLook from "./components/FirstLook";
 
 
 class App extends Component {
@@ -11,7 +14,6 @@ class App extends Component {
     return (
       <div>
         <Navbar></Navbar>
-        <HomePage></HomePage>
       </div>
        
     );

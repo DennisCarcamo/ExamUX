@@ -1,15 +1,16 @@
 import React, { Component } from "react";
 import { Menu } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
+import "../Toolbar.css";
 
 class Toolbar extends Component {
   render() {
     return (
-      <div class="ui teal three item inverted menu">
-        <a class="item">NESNT AT HOME</a>
-        <a class="item" >FOR BUSINESS</a>
-        <a class="item">OFFERS</a>
-        <a class="item">PRODUCTS</a>
+      <div class="ui teal four item inverted menu">
+        <a class="active item">PRODUCTS</a>
+        <a class="item">WORKS WITH NEST</a>
+        <a class="item">NEST AT HOME</a>
+        <a class="item">MORE</a>
       </div>
 
       /* <Menu>

@@ -1,21 +1,29 @@
 import React, { Component } from "react";
-import { Button } from "semantic-ui-react";
-import Navbar from "./components/navbar";
-import First from "./components/FirstLook";
-
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Navigation from "./components/navBar";
+import HomePage from "./containers/HomePageContainer";
+import Login from "./containers/LoginContainer";
+import error from "./components/Error";
 
 import "./App.css";
 import "semantic-ui-css/semantic.min.css";
 import FisrtLook from "./components/FirstLook";
 
-
 class App extends Component {
   render() {
     return (
       <div>
-        <Navbar></Navbar>
+        <BrowserRouter>
+          <div>
+            <Navigation />
+            <Switch>
+              <Route path="/" component={HomePage} exact />
+              <Route path="/login" component={Login} exact />
+              <Route component={error} />
+            </Switch>
+          </div>
+        </BrowserRouter>
       </div>
-       
     );
   }
 }

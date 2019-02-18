@@ -3,6 +3,14 @@ import React, { Component } from "react";
 class Login extends Component {
   render() {
     return (
+      <div>
+      <div>
+        <h1>Log In</h1>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <div className="ui three column centered grid">
         <div className="ui placeholder segment">
           <div className="ui two column very relaxed stackable grid">
@@ -34,6 +42,7 @@ class Login extends Component {
           </div>
           <div className="ui vertical divider">Or</div>
         </div>
+      </div>
       </div>
     );
   }

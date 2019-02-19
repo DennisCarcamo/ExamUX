@@ -7,6 +7,9 @@ import Carousell from "../components/Carousel";
 import FootherContainer from "../containers/FootherContainer";
 
 class HomePage extends Component {
+  componentDidMount() {
+    document.title = 'Nest';
+  }
   render() {
     return (
       <div className="App">

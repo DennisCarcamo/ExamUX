@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 
 class Login extends Component {
+  componentDidMount() {
+    document.title = 'Nest';
+  }
   render() {
+
     return (
       <div>
         <div>

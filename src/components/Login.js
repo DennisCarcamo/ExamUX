@@ -27,7 +27,7 @@ class Login extends Component {
               <div className="column">
                 <div className="ui form">
                   <div className="field">
-                    <label>Username</label>
+                    <label>Baia Baia</label>
                     <div className="ui left icon input">
                       <input type="text" placeholder="Username" />
                       <i className="user icon" />

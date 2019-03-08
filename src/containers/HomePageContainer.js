@@ -3,8 +3,9 @@ import "semantic-ui-css/semantic.min.css";
 import HeaderContainer from "../containers/HeaderContainer";
 import ToolbarContainer from "../containers/ToolbarContainer";
 import CardsContainer from "../containers/CardsContainer";
-import Carousell from "../components/Carousel";
+import Carouselcontainer from "../containers/CarouselContainer";
 import FootherContainer from "../containers/FootherContainer";
+import CarouselContainer from "../containers/CarouselContainer";
 
 class HomePage extends Component {
   componentDidMount() {
@@ -15,7 +16,7 @@ class HomePage extends Component {
       <div className="App">
         <HeaderContainer />
         <ToolbarContainer />
-        <Carousell />
+        <CarouselContainer />
         <CardsContainer />
         <FootherContainer />
       </div>

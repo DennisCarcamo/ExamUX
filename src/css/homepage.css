@@ -1,0 +1,28 @@
+#toolbar {
+  background-color: #00c3e8;
+  margin-bottom: 0;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+#root > div > div > div.App > div:nth-child(3) {
+  background-color: aqua;
+  height: 50%;
+  width: 50%;
+}
+
+.item {
+  text-align: center;
+}
+
+#cardscontainer {
+  margin-top: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: red;
+  height: 80vh;
+}
+
+.card{
+    
+}

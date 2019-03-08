@@ -8,7 +8,6 @@ import error from "./components/Error";
 
 import "./App.css";
 import "semantic-ui-css/semantic.min.css";
-import FisrtLook from "./components/FirstLook";
 
 class App extends Component {
   render() {

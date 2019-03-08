@@ -5,7 +5,7 @@ import "semantic-ui-css/semantic.min.css";
 class Header extends Component {
     render() {
       return (
-        <img class="ui middle aligned medium image" src={ require ("../img/LogoNest.png")} />    
+        <img className="ui middle aligned medium image" alt="LogoNest" src={ require ("../img/LogoNest.png")} />    
         );
     }
   }

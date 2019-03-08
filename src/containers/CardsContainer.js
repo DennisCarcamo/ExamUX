@@ -1,15 +1,32 @@
 import React, { Component } from "react";
 import "semantic-ui-css/semantic.min.css";
-import Cards from "../components/Cards"
+import Cards from "../components/Cards";
+import items from "../items.js";
+import "../css/homepage.css";
 
 class CardsContainer extends Component {
-    render() {
+  render() {
+    console.log(items);
+    let itemList = items.map(item => {
       return (
-          <div class="iu two cards">
-          <Cards/>
-          </div>
-        );
-    }
+        <Cards
+          title={item.title}
+          price={item.price}
+          pictureUrl={item.pictureUrl}
+        />
+      );
+    });
+    return (
+      <div id="cardscontainer">
+        <div className="ui four cards">{itemList}</div>
+      </div>
+    );
   }
-  
-  export default CardsContainer;
+}
+
+/*
+    padding-right: 25px;
+    padding-left: 25px; 
+  */
+
+export default CardsContainer;
